@@ -38,7 +38,7 @@ var charactors = [
 //=========================================================================================================================================
 //この行から下のコードに変更を加えると、スキルが動作しなくなるかもしれません。わかる人のみ変更を加えてください。  
 //=========================================================================================================================================
-exports.handler = function(event, context, callback) {
+exports.handler = function (event, context, callback) {
     var alexa = Alexa.handler(event, context);
     alexa.APP_ID = APP_ID;
     alexa.registerHandlers(handlers);
@@ -57,12 +57,12 @@ var handlers = {
 
             var data = charactors;
             var f = -1, s = -1;
-            while(f === s) {
-                f = __random_index(data); 
-                s = __random_index(data); 
+            while (f === s) {
+                f = __random_index(data);
+                s = __random_index(data);
             }
-            return data[f] + data[s]; 
-       };
+            return data[f] + data[s];
+        };
         var coupling = random_coupling();
         var speech_text = GET_COUPLING_MESSAGE + coupling + DESU_MESSAGE;
         this.emit(':tellWithCard', speech_text, SKILL_NAME, coupling);
