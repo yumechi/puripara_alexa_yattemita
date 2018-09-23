@@ -1,0 +1,2 @@
+# puripara_alexa
+puriparaの一発ネタをalexaに仕込む鬼畜
