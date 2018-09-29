@@ -1,5 +1,7 @@
-# puripara_alexa
-puriparaの一発ネタをalexaに仕込む鬼畜
+# puripara_alexa_yattemita
+prickathonの一発ネタをalexaに仕込む鬼畜
+
+![成果物のこーなー](./prickathon5_seika.gif)
 
 # 参考資料
 
